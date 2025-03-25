@@ -1,0 +1,609 @@
+fileFormatVersion: 2
+guid: 8c6fa088770db84478e81c2174eadbf1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 604
+        width: 110
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216cccfed46c4b3478ce8ad1550dcae5
+      internalID: -324066023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 605
+        width: 89
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9782c0be89c72e4d9c921892edd7c78
+      internalID: -637293700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 604
+        width: 78
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b459beff06d0aee44ae0fcfa7786ca0c
+      internalID: 1880947820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 476
+        width: 110
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b8b817e8f2978428cab11786a3e242
+      internalID: -262280020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 475
+        width: 79
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d261ffca30d781489243ec7cedd4887
+      internalID: -1740260157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 478
+        width: 113
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185b6543e88d2b146b726ca6e8c256c1
+      internalID: 1757945683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 367
+        width: 85
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbdcb88a06703949a30563b1ca14518
+      internalID: -1767533380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 366
+        width: 114
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531408d31cd27e24aa60cf66a5fad848
+      internalID: 1032333704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 371
+        width: 90
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ea5cab562199d4993e9aac6ec858e7
+      internalID: -1327729251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 239
+        width: 82
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7b273a2603891458d65cd1c087b599
+      internalID: -1081707829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 237
+        width: 121
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9636c47e461695f4eb003ede5c9ad7f9
+      internalID: 1936460194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 238
+        width: 99
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938f15481ca9f0b409c1954e28ac998b
+      internalID: 1678160246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 131
+        width: 94
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db01d87641ac6f468cf6ab8f8a21082
+      internalID: 1535298039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 129
+        width: 93
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3058d3fa51b06842a183fde241e5f6f
+      internalID: -596225853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 127
+        width: 71
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09d672508806e444bf8d134ac11a7dc
+      internalID: -995206606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 12
+        width: 89
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca15a8d94636724a946e036de082486
+      internalID: -950612022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 13
+        width: 83
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a277b87339c05e04091cf2526bd38dd8
+      internalID: 1874189119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 14
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613d1cc677f527f4da8939236c3efc1b
+      internalID: 817488350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 482178965cdadae429ab0687119332a7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_0: -324066023
+      FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_1: -637293700
+      FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_10: 1936460194
+      FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_11: 1678160246
+      FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_12: 1535298039
+      FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_13: -596225853
+      FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_14: -995206606
+      FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_15: -950612022
+      FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_16: 1874189119
+      FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_17: 817488350
+      FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_2: 1880947820
+      FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_3: -262280020
+      FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_4: -1740260157
+      FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_5: 1757945683
+      FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_6: -1767533380
+      FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_7: 1032333704
+      FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_8: -1327729251
+      FREE_50+_Vector_Fruits___Vegetables_Icons_in_SVG___PNG__1_-removebg-preview_9: -1081707829
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

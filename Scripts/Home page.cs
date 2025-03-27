@@ -10,11 +10,15 @@ public class HomePage : MonoBehaviour
     public GameObject NewGame;
     public GameObject Spowen;
     public GameObject MoreGame ;
-   
-    // [SerializeField] private GameTimer gameTimer;
-  //  public Homepageaudio homepageaudio;
 
-    
+    // [SerializeField] private GameTimer gameTimer;
+    //  public Homepageaudio homepageaudio;
+
+    private void Start()
+    {
+        
+    }
+
     public void homePage()
     {      
         Level.SetActive(true);

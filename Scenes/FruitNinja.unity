@@ -7329,6 +7329,7 @@ GameObject:
   - component: {fileID: 1354196189}
   - component: {fileID: 1354196188}
   - component: {fileID: 1354196194}
+  - component: {fileID: 1354196195}
   m_Layer: 5
   m_Name: Home page  (Loding Page)
   m_TagString: Untagged
@@ -7455,6 +7456,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HomeLoding: {fileID: 1354196187}
   Homepage: {fileID: 1773191198}
+--- !u!95 &1354196195
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354196187}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 23060ed19f7fa394a80837dbe7704151, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1355249889
 GameObject:
   m_ObjectHideFlags: 0
@@ -11740,7 +11762,7 @@ Transform:
   m_GameObject: {fileID: 1865947123}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -11.49, z: 0}
+  m_LocalPosition: {x: 0, y: -12.85, z: 0}
   m_LocalScale: {x: 2, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

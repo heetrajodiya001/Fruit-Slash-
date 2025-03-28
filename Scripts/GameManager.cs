@@ -33,7 +33,6 @@ public class GameManager : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
     }
-
     public void IncreaseScore(int points)
     {
         if (NewGame.activeSelf)

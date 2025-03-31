@@ -4,12 +4,9 @@ using UnityEngine.UI;
 public class ButtonClickSound : MonoBehaviour
 {
     public AudioClip clickSound;
-    public AudioClip startSound;
-    public AudioClip endSound;
-    public AudioClip explosionSound; // Classic Mode bomb sound
-    public AudioClip sliceSound; // New Game Mode bomb sound
-    public AudioClip fruitSliceSound; // Fruit slicing sound
-    public Slider volumeSlider; // UI Slider to control volume
+    public AudioClip StartSound;
+    public AudioClip EndSound;
+    public Slider volumeSlider; // Reference to UI slider
 
     private AudioSource audioSource;
 
@@ -17,11 +14,14 @@ public class ButtonClickSound : MonoBehaviour
     {
         audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.playOnAwake = false;
-        audioSource.volume = PlayerPrefs.GetFloat("Volume", 0.5f); // Load saved volume or default 0.5
+
+        // Load saved volume or set default to 0.5
+        float savedVolume = PlayerPrefs.GetFloat("Volume", 0.5f);
+        audioSource.volume = savedVolume;
 
         if (volumeSlider != null)
         {
-            volumeSlider.value = audioSource.volume;
+            volumeSlider.value = savedVolume;
             volumeSlider.onValueChanged.AddListener(SetVolume);
         }
     }
@@ -33,47 +33,31 @@ public class ButtonClickSound : MonoBehaviour
 
     public void ClassicPlayClickSound()
     {
-        PlaySound(startSound);
+        PlaySound(StartSound);
     }
 
-    public void NewGamePlayClickSound()
+    public void NewGamePlayClicksound()
     {
-        PlaySound(startSound);
+        PlaySound(StartSound);
     }
 
     public void GameExitSound()
     {
-        PlaySound(endSound);
-    }
-
-    public void PlayExplosionSound()
-    {
-        PlaySound(explosionSound);
-    }
-
-    public void PlaySliceSound()
-    {
-        PlaySound(sliceSound);
-    }
-
-    public void PlayFruitSliceSound()
-    {
-        PlaySound(fruitSliceSound);
+        PlaySound(EndSound);
     }
 
     private void PlaySound(AudioClip clip)
     {
         if (clip != null && audioSource != null && audioSource.enabled && gameObject.activeInHierarchy)
         {
-            audioSource.volume = PlayerPrefs.GetFloat("Volume", 0.5f); // Ensure volume is updated
-            audioSource.PlayOneShot(clip);
+            audioSource.PlayOneShot(clip, audioSource.volume);
         }
     }
 
     public void SetVolume(float volume)
     {
         audioSource.volume = volume;
-        PlayerPrefs.SetFloat("Volume", volume); // Save volume setting
+        PlayerPrefs.SetFloat("Volume", volume);
         PlayerPrefs.Save();
     }
 }

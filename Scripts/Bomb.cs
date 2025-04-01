@@ -2,13 +2,14 @@
 
 public class Bomb : MonoBehaviour
 {
-    public AudioClip explosionSound; // Classic Mode માટે
-    public AudioClip sliceSound; // New Game Mode માટે
+    public AudioClip explosionSound;
+    public AudioClip sliceSound;
     private AudioSource audioSource;
 
     private void Awake()
     {
         audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.playOnAwake = false;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -17,28 +18,24 @@ public class Bomb : MonoBehaviour
         {
             GetComponent<Collider>().enabled = false;
 
-            if (GameManager.Instance.NewGame.activeSelf)
+            if (GameManager.Instance.NewGame.activeSelf || GameManager.Instance.MoreGame.activeSelf)
             {
-                // New Game Mode માં Slice Sound વાગશે
                 if (sliceSound != null)
                 {
-                    audioSource.PlayOneShot(sliceSound);
-                }
-            }
-            else if (GameManager.Instance.MoreGame.activeSelf)
-            {
-                // More Game Mode માં Slice Sound વાગશે
-                if (sliceSound != null)
-                {
-                    audioSource.PlayOneShot(sliceSound);
+                    PlaySound(sliceSound);
+                    Debug.Log("Playing slice sound in NewGame/MoreGame mode.");
                 }
             }
             else
             {
-                // Classic Mode માં Explosion Sound વાગશે
                 if (explosionSound != null)
                 {
-                    audioSource.PlayOneShot(explosionSound);
+                    PlaySound(explosionSound);
+                    Debug.Log("Playing explosion sound in Classic mode.");
+                }
+                else
+                {
+                    Debug.LogError("Explosion sound is missing!");
                 }
             }
 
@@ -46,5 +43,15 @@ public class Bomb : MonoBehaviour
         }
     }
 
+    private void PlaySound(AudioClip clip)
+    {
+        if (clip != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(clip);
+        }
+        else
+        {
+            Debug.LogError("AudioSource or Clip missing in Bomb script!");
+        }
+    }
 }
-

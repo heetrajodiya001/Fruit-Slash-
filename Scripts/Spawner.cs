@@ -9,7 +9,6 @@ public class Spawner : MonoBehaviour
     public GameObject bombPrefab;
     [Range(0f, 1f)]
     public float bombChance = 0.05f;
-
     public float minSpawnDelay = 0.25f;
     public float maxSpawnDelay = 1f;
     public float minAngle = -15f;
@@ -17,14 +16,11 @@ public class Spawner : MonoBehaviour
     public float minForce = 18f;
     public float maxForce = 22f;
     public float maxLifetime = 5f;
-
     private Coroutine spawnCoroutine;
-
     private void Awake()
     {
         spawnArea = GetComponent<Collider>();
     }
-
     public void StartSpawning()
     {
         if (!gameObject.activeInHierarchy)
@@ -34,8 +30,6 @@ public class Spawner : MonoBehaviour
         StopSpawning(); // Stop if already running
         spawnCoroutine = StartCoroutine(Spawn());
     }
-
-
     public void StopSpawning()
     {
         if (spawnCoroutine != null)
@@ -44,7 +38,6 @@ public class Spawner : MonoBehaviour
             spawnCoroutine = null;
         }
     }
-
     private IEnumerator Spawn()
     {
         yield return new WaitForSeconds(2f);
@@ -55,7 +48,6 @@ public class Spawner : MonoBehaviour
             {
                 prefab = bombPrefab;
             }
-
             Vector3 position = new Vector3
             {
                 x = Random.Range(spawnArea.bounds.min.x, spawnArea.bounds.max.x),
@@ -65,10 +57,8 @@ public class Spawner : MonoBehaviour
             Quaternion rotation = Quaternion.Euler(0f, 0f, Random.Range(minAngle, maxAngle));
             GameObject fruit = Instantiate(prefab, position, rotation);
             Destroy(fruit, maxLifetime);
-
             float force = Random.Range(minForce, maxForce);
             fruit.GetComponent<Rigidbody>().AddForce(fruit.transform.up * force, ForceMode.Impulse);
-
             yield return new WaitForSeconds(Random.Range(minSpawnDelay, maxSpawnDelay));
         }
     }

@@ -94,6 +94,7 @@ public class GameManager : MonoBehaviour
         {
             spawner.StopSpawning();
             Time.timeScale = 0;
+            StartCoroutine(FadeSequence(fadeImage));
             StartCoroutine(ShowGameOverAfterDelay(1f));
             DestroyAllFruitsAndBombs();
         }

@@ -1,5 +1,4 @@
 using UnityEngine;
-
 public class PauseGame : MonoBehaviour
 {
     public GameObject optionMenu; // Drag & drop the Option UI panel in Inspector
@@ -17,7 +16,6 @@ public class PauseGame : MonoBehaviour
             print("hii");
         }
     }
-
     public void CloseSettings()
     {
         if (optionMenu != null)
@@ -25,8 +23,7 @@ public class PauseGame : MonoBehaviour
             optionMenu.SetActive(false); // Disable the settings menu
             Time.timeScale = 1; // Resume the game
         }
-    }
-    
+    }    
     public void Resume()
     {
         optionMenu.SetActive(false);

@@ -12,7 +12,7 @@ public class LogingScript : MonoBehaviour
     }
     private IEnumerator ShowLodingScreen()
     {
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(6);
         HomeLoding.SetActive(false);
         Homepage.SetActive(true);  
     }

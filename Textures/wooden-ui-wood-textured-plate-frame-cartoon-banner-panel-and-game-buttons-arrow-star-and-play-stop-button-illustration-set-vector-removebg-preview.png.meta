@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 135782dc96135db42bfc490b8dddbef0
+guid: 3be00bc26895d12439a416d427397a23
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -94,7 +94,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: iOS
+    buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -146,7 +146,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WindowsStoreApps
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -171,63 +171,16 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: vecteezy_wooden-web-buttons-round-icons-for-game-interface_13699524-removebg-preview_0
+      name: wooden-ui-wood-textured-plate-frame-cartoon-banner-panel-and-game-buttons-arrow-star-and-play-stop-button-illustration-set-vector-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 353
-        y: 97
-        width: 46
-        height: 47
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f119373719dfb7642858b97c3c0a4a38
-      internalID: 1193595387
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vecteezy_wooden-web-buttons-round-icons-for-game-interface_13699524-removebg-preview_1
-      rect:
-        serializedVersion: 2
-        x: 606
-        y: 98
-        width: 46
+        x: 23
+        y: 20
+        width: 334
         height: 46
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -236,83 +189,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b64d6537ceefc234dab354fb7af499f6
-      internalID: -1515037659
+      spriteID: fef6d2c17ef9a4941ae971cccfb6cc29
+      internalID: -1314991955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vecteezy_wooden-web-buttons-round-icons-for-game-interface_13699524-removebg-preview_2
+      name: wooden-ui-wood-textured-plate-frame-cartoon-banner-panel-and-game-buttons-arrow-star-and-play-stop-button-illustration-set-vector-removebg-preview_1
       rect:
         serializedVersion: 2
-        x: 669
-        y: 32
-        width: 47
-        height: 47
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a72a444be5c9fce449a9df5d204de331
-      internalID: 2007881674
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vecteezy_wooden-web-buttons-round-icons-for-game-interface_13699524-removebg-preview_3
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 98
-        width: 46
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4acfe037f18a6f84182200539759a3ab
-      internalID: -1240953329
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vecteezy_wooden-web-buttons-round-icons-for-game-interface_13699524-removebg-preview_4
-      rect:
-        serializedVersion: 2
-        x: 417
-        y: 97
-        width: 46
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 75a2264895d6a854ea9180b08ca0a4e6
-      internalID: -996208484
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vecteezy_wooden-web-buttons-round-icons-for-game-interface_13699524-removebg-preview_5
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 32
-        width: 47
-        height: 48
+        x: 296
+        y: 206
+        width: 251
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,8 +210,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1839681e83ba9ef419d03976e76ff9fa
-      internalID: 1397285214
+      spriteID: 8bfab2d5e3f7c694aa4f2f7e66b727e9
+      internalID: -854419758
       vertices: []
       indices: 
       edges: []
@@ -329,7 +219,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: b372b4a2059412345a004ee11d06c13a
+    spriteID: e59b0a86b93505241b494742d70c671c
     internalID: 0
     vertices: []
     indices: 
@@ -337,12 +227,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      vecteezy_wooden-web-buttons-round-icons-for-game-interface_13699524-removebg-preview_0: 1193595387
-      vecteezy_wooden-web-buttons-round-icons-for-game-interface_13699524-removebg-preview_1: -1515037659
-      vecteezy_wooden-web-buttons-round-icons-for-game-interface_13699524-removebg-preview_2: 2007881674
-      vecteezy_wooden-web-buttons-round-icons-for-game-interface_13699524-removebg-preview_3: -1240953329
-      vecteezy_wooden-web-buttons-round-icons-for-game-interface_13699524-removebg-preview_4: -996208484
-      vecteezy_wooden-web-buttons-round-icons-for-game-interface_13699524-removebg-preview_5: 1397285214
+      wooden-ui-wood-textured-plate-frame-cartoon-banner-panel-and-game-buttons-arrow-star-and-play-stop-button-illustration-set-vector-removebg-preview_0: -1314991955
+      wooden-ui-wood-textured-plate-frame-cartoon-banner-panel-and-game-buttons-arrow-star-and-play-stop-button-illustration-set-vector-removebg-preview_1: -854419758
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

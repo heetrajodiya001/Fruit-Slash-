@@ -16,11 +16,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] private MoreGameTimer MoreGameTimer;
     public GameObject NewGame;
     public GameObject MoreGame;
-
     private int newGameScore = 0;
     private int moreGameScore = 0;
     public int score { get; private set; } = 0;
-
     private void Awake()
     {
         if (Instance != null)
@@ -82,6 +80,7 @@ public class GameManager : MonoBehaviour
             NewscoreText.text = newGameScore.ToString();
             DestroyAllFruitsAndBombs();
             StartCoroutine(NewExplodeSequence());
+
         }
         else if (MoreGame.activeSelf)
         {

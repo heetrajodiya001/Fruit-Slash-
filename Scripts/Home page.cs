@@ -9,15 +9,8 @@ public class HomePage : MonoBehaviour
     public GameObject Home, Level, Play, Gameover;
     public GameObject NewGame;
     public GameObject Spowen;
-    public GameObject MoreGame ;
-
-    // [SerializeField] private GameTimer gameTimer;
-    //  public Homepageaudio homepageaudio;
-
-    private void Start()
-    {
-        
-    }
+    public GameObject MoreGame;
+    public GameObject Shop;
 
     public void homePage()
     {      
@@ -60,8 +53,18 @@ public class HomePage : MonoBehaviour
         Level.SetActive(false);
         MoreGame.SetActive(true);
         spawner.StartSpawning(); 
-        Time.timeScale = 1.0f; 
-    }    
+        Time.timeScale = 1.0f;
+    }
+    public void Shoptoopenshop()
+    {
+        Level.SetActive(false);
+        Shop.SetActive(true);
+    }
+    public void Shoptolevel()
+    {
+        Level.SetActive(true);
+        Shop.SetActive(false);  
+    }
     private void DestroyAllFruits()
     {
         GameObject[] fruits = GameObject.FindGameObjectsWithTag("Fruit");
@@ -69,7 +72,6 @@ public class HomePage : MonoBehaviour
         {
             Destroy(fruit);
         }
-
         GameObject[] bombs = GameObject.FindGameObjectsWithTag("Bomb");
         foreach (GameObject bomb in bombs)
         {

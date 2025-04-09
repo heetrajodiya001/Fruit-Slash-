@@ -29,7 +29,6 @@ public class AudioManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
     void InitDictionaries()
     {
         foreach (var clip in musicClips)
